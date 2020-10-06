@@ -1,0 +1,14 @@
+{
+  "name": "bot-on-board",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "elasticdump": "^6.33.4"
+  },
+  "scripts": {
+    "dump": "./elasticsearch/load_wiki_dump.sh"
+  }
+}
